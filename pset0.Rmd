@@ -12,6 +12,11 @@ library(psych)
 
 ```{r}
 2+2
+
+x <- rnorm(50,0,1)
+y <- rnorm(50,0,1)
+
+summary(lm(y~x))
 ```
  
  
